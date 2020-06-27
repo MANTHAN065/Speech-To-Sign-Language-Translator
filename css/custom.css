@@ -1,0 +1,69 @@
+body {
+	margin-top:110px!important;
+}
+/* nav css start here */
+nav {min-height:80px!important;background:white!important;border:none!important;-webkit-box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);
+box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.4);}
+nav .container{padding-top:15px!important;}
+nav #navbar {border:none!important;}
+nav a{font-weight:bold;}
+.active a{background-color:#337ab7!important;color:white!important;}
+.icon-bar {background-color:white!important;}
+.navi {background-color: #555;}
+/* nav css ends here*/
+/*css for word displayed under avatar*/
+#currentWord{
+  width: 63%;
+  margin: 0 auto;
+  margin-top: 0px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 5px;
+  font-weight: bold;
+}
+#debugger {
+    max-height: 200px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 16px;
+    margin-top: 5px;	
+}
+#speech_loader{position:fixed;}
+#playeng{position:fixed;}
+#clicktospeak{position:fixed;}
+#listening{position:fixed;}
+/* Style the navigation bar */
+.navb {
+  width: 44.3%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navb a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navb a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navb a {
+    float: none;
+    display: block;
+  }
+}

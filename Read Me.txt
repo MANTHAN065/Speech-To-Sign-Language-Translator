@@ -1,0 +1,26 @@
+#English-Speech-To-Indian-Sign-Language-Translator
+
+ES2ISL is build for the purpose of bridging the communication gap between hearing impaired and normal person. This is the 
+modified or enahanced version of the existing project. For some memory issues, we haven't uploaded all the files but we 
+have added the samples of our working system under result directory of our project. If you want any further details regarding the project
+or want to contribute in our project further with your novel ideas, feel free to contact me.
+
+Contact Information:
+
+Name- Manthan Khanvilkar
+Email- amanthan@lakeheadu.ca   
+
+About Project:
+
+The project contains 2 of the modules for interaction: 
+1.Interactive 
+2.Seemless
+
+Interactive:
+Here, the users need to click on the microphone icon everytime to speak something and then the avatar performs the action 
+associated to the speech.
+
+Seemless:
+This module is always in a listening mode. Users do not need to hit microphone icon for the communication. To make system 
+perform an action based on your speech, the keyword is "Okay Jarvis". As you speak "Ok Jarvis", the system will be ready to 
+take your speech as an input, parse the grammar and perform an action associated to your speech. 
